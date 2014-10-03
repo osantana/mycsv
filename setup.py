@@ -5,7 +5,7 @@
 from setuptools import setup, find_packages
 
 
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 
 
 with open("README.rst") as readme:
@@ -34,7 +34,7 @@ setup(
         'Environment :: Console',
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
-        'License :: OSI Approved :: BSD License'
+        'License :: OSI Approved :: BSD License',
         'Operating System :: MacOS :: MacOS X',
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX',

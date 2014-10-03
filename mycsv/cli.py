@@ -26,7 +26,7 @@ def export(db, query, output):
 
 @click.command()
 @click.option("-u", "--user", envvar="USER", help="User for login if not current user")
-@click.option("-p", "--password", default="", prompt=True, hide_input=True, help="Password to use when connecting to server")
+@click.option("-p", "--password", default="", prompt=True, hide_input=True,help="Password to use when connecting to server")
 @click.option("-h", "--host", default="localhost", show_default=True, help="Connect to host")
 @click.option("-P", "--port", default=3306, type=int, show_default=True, help="Port number to use for connection")
 @click.option("-s", "--script", default="-", type=click.File("r"), show_default=True, help="Input SQL script file")

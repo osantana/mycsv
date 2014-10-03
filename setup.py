@@ -9,7 +9,7 @@ with open("README.rst") as readme:
 
 setup(
     name="mycsv",
-    version="0.1",
+    version="0.1.1",
     description='Script to export query results into local CSV files',
     long_description=long_description,
     author='Osvaldo Santana Neto',

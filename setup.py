@@ -4,17 +4,21 @@
 
 from setuptools import setup, find_packages
 
+
+VERSION = "0.1.2"
+
+
 with open("README.rst") as readme:
     long_description = readme.read()
 
 setup(
     name="mycsv",
-    version="0.1.1",
+    version=VERSION,
     description='Script to export query results into local CSV files',
     long_description=long_description,
     author='Osvaldo Santana Neto',
     url='https://github.com/osantana/mycsv',
-    download_url='https://github.com/osantana/mycsv/releases',
+    download_url='https://github.com/osantana/mycsv/tarball/{}'.format(VERSION),
     license="BSD",
     packages=find_packages(),
     install_requires=[
